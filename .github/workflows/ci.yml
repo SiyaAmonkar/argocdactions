@@ -26,6 +26,6 @@ jobs:
       - name: Sync ArgoCD Application
         uses: safe2008/argocd-app-actions@main
         with:
-          address: "2886795298-30886-ollie07.environments.katacoda.com/applications/demo"
+          address: "2886795298-30886-ollie07.environments.katacoda.com"
           insecure: true
           appName: "demo"
